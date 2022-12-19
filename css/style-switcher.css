@@ -1,0 +1,32 @@
+.style-switcher {
+  position: fixed;
+  right: 5px;
+  top: 20px;
+  background-color: var(--bg-black-100);
+  z-index: 10;
+}
+.style-switcher .day-night {
+  background-color: var(--bg-black-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 2px 15px rgb(0 0 0 / 19%);
+}
+.style-switcher .s-icon {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  font-size: 20px;
+  right: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.style-switcher .day-night i {
+  color: var(--bg-black-50);
+  transition: var(--main-transition);
+}
+.style-switcher .day-night:hover i {
+  color: var(--skin-color);
+}
