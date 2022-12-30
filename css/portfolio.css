@@ -632,11 +632,12 @@ html {
 .contact form input[name="subject"] {
   width: 100%;
 }
-.contact form textarea.input {
+.contact form textarea {
   resize: none;
   height: 100px;
   width: 100%;
   border: none;
   border-radius: 5px;
+  padding: 8px;
 }
 /* !end contact */
