@@ -546,11 +546,30 @@ html {
 .portfolio .images .img {
   position: relative;
   display: flex;
+  overflow: hidden;
 }
 .portfolio .images .img img {
   border-radius: 5px;
   border: 2px solid #111111;
   max-width: 100%;
+}
+.portfolio .images .img p {
+  position: absolute;
+  color: var(--bg-black-50);
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  padding: 5px;
+  transform: translate(0, 100%);
+  background-color: var(--bg-black-100);
+  transition: 0.4s;
+  display: flex;
+}
+.portfolio .images .img:hover p {
+  transform: translate(0, 0);
+}
+.portfolio .images .img p a {
+  color: var(--skin-color);
 }
 /*! end portfolio section */
 /* !start contact */
