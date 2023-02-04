@@ -392,16 +392,25 @@ html {
   margin-bottom: 20px;
   border-bottom: 1px solid var(--bg-black-100);
   padding-bottom: 10px;
-}
-.about .about-content .info-row .personal-info ul li {
   font-weight: bold;
   color: var(--bg-black-50);
 }
+
 .about .about-content .info-row .personal-info ul li span {
   font-weight: normal;
 }
 .about .about-content .skills {
   width: 45%;
+}
+
+@media (max-width: 580px) {
+  .about .about-content .info-row .personal-info {
+    flex-direction: column;
+  }
+  .about .about-content .info-row .personal-info ul li {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 @media (max-width: 580px) {
   .about .about-content .skills {
@@ -564,6 +573,7 @@ html {
   background-color: var(--bg-black-100);
   transition: 0.4s;
   display: flex;
+  gap: 20px;
 }
 .portfolio .images .img:hover p {
   transform: translate(0, 0);
@@ -571,6 +581,7 @@ html {
 .portfolio .images .img p a {
   color: var(--skin-color);
 }
+
 /*! end portfolio section */
 /* !start contact */
 
