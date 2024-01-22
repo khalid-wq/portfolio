@@ -1,7 +1,7 @@
 var typed = new Typed(".typing", {
-    strings: ["Web Designer", "Web Devloper", "Graphic Designer", "Game Devloper"],
-    typeSpeed: 100,
-    BackSpeed: 60,
-    loop: true
-})
+  strings: ["React.js", "Next.js", "Express.js", "Nest.js", "and", "Node.js"],
+  typeSpeed: 100,
+  BackSpeed: 60,
+  loop: true,
+});
 // google
